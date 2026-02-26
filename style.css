@@ -1,64 +1,91 @@
-/* Reset deafault browser spacing*/
-body{
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: rgb(14, 191, 223);
+/* Reset default browser spacing */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(14, 191, 223);
+  color: #111;
 }
- 
-/*Header*/
-header{
-    background-color: rgb(35, 154, 222);
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    text-align: center;
+
+/* Header */
+header {
+  background-color: rgb(35, 154, 222);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
- 
-/*Navigation*/
-nav{
-    background-color: black;
-    padding: 10px;
-    text-align: center;
+
+/* Navigation */
+nav {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
 }
- 
+
 nav a {
-    color: azure;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
+  color: azure;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
 }
- 
+
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
- 
-/* Main content*/
-main{
-    padding: 20px;
+
+/* Main content */
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
 }
- 
-/* Sections*/
+
+/* Sections */
 section {
-    background-color: rgb(215, 217, 250);
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+  background-color: rgb(215, 217, 250);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
- 
-/* Products*/
-.product{
-    border: 1px solid rgb(220, 223, 255);
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-{
- 
-/* Footer*/
-footer{
-    background-color: black;
-    color: antiquewhite;
-    text-align: center;
-    padding: 10px;
+
+/* Product cards */
+.product {
+  border: 1px solid rgb(180, 186, 255);
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
- 
 
+/* Contact form */
+form {
+  display: grid;
+  gap: 8px;
+}
 
+input,
+textarea,
+button {
+  font: inherit;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #999;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: antiquewhite;
+  text-align: center;
+  padding: 10px;
+}
